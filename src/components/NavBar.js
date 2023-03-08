@@ -74,9 +74,14 @@ const NavBar = () => {
                     <span>Material Tailwind</span>
                 </Typography>
                 <div className="hidden lg:block">{navList}</div>
-                <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-                    <span>Buy Now</span>
-                </Button>
+                <div className="flex items-center gap-2">
+                    <Button variant="gradient" size="sm" className="hidden lg:inline-block">
+                        <span>Login</span>
+                    </Button>
+                    <Button variant="gradient" size="sm" className="hidden lg:inline-block">
+                        <span>Sign up</span>
+                    </Button>
+                </div>
                 <IconButton
                     variant="text"
                     className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"

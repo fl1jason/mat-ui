@@ -8,7 +8,7 @@ const App = () => {
     <div className="w-full">
       <NavBar />
       <Header />
-      <div className="flex mt-10 justify-center">
+      <div className="lg:flex mt-10 justify-center sm:flex-row ">
         <ProductCard />
         <ProductCard />
         <ProductCard />
